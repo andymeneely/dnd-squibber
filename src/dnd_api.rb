@@ -13,3 +13,7 @@ def get_monster(name)
   response = RestClient.get url
   JSON.parse(response.body)
 end
+
+def foo
+  'blah'
+end

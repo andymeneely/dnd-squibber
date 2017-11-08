@@ -3,25 +3,58 @@ name:
   y: 90
   width: 500
   height: 50
-  font: Arial 18
+  font: Open Sans 14
   valign: middle
   align: left
   ellipsize: false
 
-ATK:
-  x: 90
-  y: 190
-  width: 200
-  height: 50
-  font: Arial 12
-  valign: middle
+size:
+  extends: name
+  font_size: 10
+  y: += 14pt
+
+armor_class:
+  extends: size
+  y: += 14pt
+
+hit_points:
+  extends: armor_class
+  y: += 14pt
+
+speed:
+  extends: hit_points
+  y: += 14pt
+
+stealth:
+  extends: speed
+  y: += 14pt
+
+abilities:
+  font: Consolas 8
+  x: 4.1in
+  y: 0.25in
+
+action_text:
+  font: Serif 8
+  x: 0.5in
+  y: 1.5in
+  width: 4.0in
   align: left
-  ellipsize: false
-DEF:
-  extends: ATK
-  y: += 75
+  markup: true
+  height: 1.25in
+
+special_abilities:
+  font: Serif 8
+  x: 1.0in
+  y: 0.5in
+  width: 3.0in
+  align: center
+  markup: true
+  height: 1.00in
+  valign: middle
 
 version:
-  font: Arial 6
-  x: 725
-  y: 45
+  font: Open Sans 6
+  x: 75
+  y: 2.8in
+

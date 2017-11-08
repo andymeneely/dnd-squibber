@@ -45,6 +45,26 @@ damage_vulnerabilities |                                    |
                        |                                    |
                    url | http://www.dnd5eapi.co/api/monster |
                        | s/150                              |
+             abilities | STR 8  (-1)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 10 (+0)                        |
+                       | INT 10 (+0)                        |
+                       | WIS 8  (-1)                        |
+                       | CHA 8  (-1)                        |
+                       |                                    |
+           action_text | <b>Scimitar</b>: Melee Weapon Atta |
+                       | ck: +4 to hit, reach 5 ft., one ta |
+                       | rget. Hit: 5 (1d6 + 2) slashing da |
+                       | mage.                              |
+                       | <b>Shortbow</b>: Ranged Weapon Att |
+                       | ack: +4 to hit, range 80/320 ft.,  |
+                       | one target. Hit: 5 (1d6 + 2) pierc |
+                       | ing damage.                        |
+          special_text | <b>Nimble Escape</b>: The goblin c |
+                       | an take the Disengage or Hide acti |
+                       | on as a bonus action on each of it |
+                       | s turns.                           |
+            perception |                                    |
                        ╰------------------------------------╯
                        ╭------------------------------------╮
                   Name | Grick                              |
@@ -99,4 +119,103 @@ damage_vulnerabilities |                                    |
                        | k"}]                               |
                    url | http://www.dnd5eapi.co/api/monster |
                        | s/156                              |
+             abilities | STR 14 (+2)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 11 (+0)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 14 (+2)                        |
+                       | CHA 5  (-3)                        |
+                       |                                    |
+           action_text | <b>Multiattack</b>: The grick make |
+                       | s one attack with its tentacles. I |
+                       | f that attack hits, the grick can  |
+                       | make one beak attack against the s |
+                       | ame target.                        |
+                       | <b>Tentacles</b>: Melee Weapon Att |
+                       | ack: +4 to hit, reach 5 ft., one t |
+                       | arget. Hit: 9 (2d6 + 2) slashing d |
+                       | amage.                             |
+                       | <b>Beak</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one target |
+                       | . Hit: 5 (1d6 + 2) piercing damage |
+                       | .                                  |
+          special_text | <b>Stone Camouflage</b>: The grick |
+                       |  has advantage on Dexterity (Steal |
+                       | th) checks made to hide in rocky t |
+                       | errain.                            |
+            perception |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Wolf                               |
+                   _id | 592f6c32c9e7ce9f721580ff           |
+                 index | 310                                |
+                  name | Wolf                               |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 11                                 |
+              hit_dice | 2d8                                |
+                 speed | 40 ft.                             |
+              strength | 12                                 |
+             dexterity | 15                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
+               stealth | 4                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | wolf has advantage on Wisdom (Perc |
+                       | eption) checks that rely on hearin |
+                       | g or smell.", "name"=>"Keen Hearin |
+                       | g and Smell"}, {"attack_bonus"=>0, |
+                       |  "desc"=>"The wolf has advantage o |
+                       | n an attack roll against a creatur |
+                       | e if at least one of the wolf's al |
+                       | lies is within 5 ft. of the creatu |
+                       | re and the ally isn't incapacitate |
+                       | d.", "name"=>"Pack Tactics"}]      |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"2d4", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one target. Hit: 7 ( |
+                       | 2d4 + 2) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/310                              |
+             abilities | STR 12 (+1)                        |
+                       | DEX 15 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one target |
+                       | . Hit: 7 (2d4 + 2) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  wolf has advantage on Wisdom (Per |
+                       | ception) checks that rely on heari |
+                       | ng or smell.                       |
+                       | <b>Pack Tactics</b>: The wolf has  |
+                       | advantage on an attack roll agains |
+                       | t a creature if at least one of th |
+                       | e wolf's allies is within 5 ft. of |
+                       |  the creature and the ally isn't i |
+                       | ncapacitated.                      |
+            perception | 3                                  |
                        ╰------------------------------------╯
