@@ -1,19 +1,28 @@
 require 'squib'
 require_relative 'version'
+require_relative 'dnd_api'
 
-# Note: run this code by running "rake" at the command line
-# To see full list of options, run "rake -T"
+data = Squib.csv data:<<-EOCSV
+Name
+Goblin
+Grick
+EOCSV
 
-data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
+['Goblin', 'Grick'].each.with_index do |name, i|
+  monster = get_monster(name)
+  monster.each do |key, value|
+    data[key] ||= []
+    data[key][i] = value
+  end
+end
 
-Squib::Deck.new(cards: data.nrows) do
+File.open('data/monsters.txt', 'w+') { |f| f.write data.to_pretty_text }
+
+Squib::Deck.new(width: '5in', height: '3in', cards: data.nrows) do
   background color: :white
   use_layout file: 'layouts/deck.yml'
 
   text str: data.name, layout: :name
-
-  text str: data.atk.map { |s| "#{s} ATK" }, layout: :ATK
-  text str: data.def.map { |s| "#{s} DEF" }, layout: :DEF
 
   svg file: 'example.svg'
 
