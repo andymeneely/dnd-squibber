@@ -1,0 +1,10 @@
+---
+sheet_width: 4.0in
+sheet_height: 6.0in
+card_height: 4.0in
+card_width: 6.0in
+position_reference: :center
+cards:
+  - x: 2in
+    y: 3in
+    rotate: :clockwise

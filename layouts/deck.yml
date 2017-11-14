@@ -3,14 +3,14 @@ name:
   y: 90
   width: 500
   height: 50
-  font: Open Sans 14
+  font: Open Sans Bold 14
   valign: middle
   align: left
   ellipsize: false
 
 size:
   extends: name
-  font_size: 10
+  font: Serif 10
   y: += 14pt
 
 armor_class:
@@ -30,31 +30,33 @@ stealth:
   y: += 14pt
 
 abilities:
-  font: Consolas 8
-  x: 4.1in
+  font: Consolas 10
+  x: 4.7in
   y: 0.25in
 
 action_text:
-  font: Serif 8
-  x: 0.5in
+  font: Serif 9
+  x: 0.25in
   y: 1.5in
-  width: 4.0in
+  width: 2.65in
   align: left
   markup: true
-  height: 1.25in
+  valign: middle
+  height: 2.25in
+  hint: black
 
 special_abilities:
-  font: Serif 8
-  x: 1.0in
-  y: 0.5in
-  width: 3.0in
+  font: Serif 9
+  x: 3in
+  y: 1.5in
+  width: 2.65in
   align: center
   markup: true
-  height: 1.00in
+  height: 2.25in
   valign: middle
+  hint: black
 
 version:
   font: Open Sans 6
   x: 75
-  y: 2.8in
-
+  y: 3.8in

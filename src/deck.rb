@@ -3,14 +3,18 @@ require_relative 'version'
 require_relative 'dnd_api'
 
 data = Squib.csv data:<<-EOCSV
-Name
-Goblin
-Grick
-Wolf
+Name,Qty
+Goblin,6
+Grick,1
+Wolf,4
+Giant Bat,4
+Bat,1
 EOCSV
 
-['Goblin', 'Grick', 'Wolf'].each.with_index do |name, i|
-  monster = get_monster(name)
+api = DnDAPI.new
+
+data.name.dup.each.with_index do |name, i|
+  monster = api.get_monster(name)
   monster.each do |key, value|
     data[key] ||= []
     data[key][i] = value
@@ -25,29 +29,27 @@ EOCSV
     CHA #{monster['charisma'].to_s.ljust(2)    } (#{'%+d' % ((monster['charisma'] - 10)/2.0).floor.to_s })
   HEREDOC
   data['action_text'] ||= []
-  actions = monster['actions'].map do |a| 
+  actions = monster['actions'].map do |a|
     "<b>#{a['name']}</b>: #{a['desc']}"
   end
   data['action_text'][i] = actions.join("\n\n")
   data['special_text'] ||= []
-  specials = monster['special_abilities'].map do |a| 
+  specials = monster['special_abilities'].map do |a|
     "<b>#{a['name']}</b>: #{a['desc']}"
   end
   data['special_text'][i] = specials.join("\n\n")
-
-
 end
 
 File.open('data/monsters.txt', 'w+') { |f| f.write data.to_pretty_text }
 
-Squib::Deck.new(width: '5in', height: '3in', cards: data.nrows) do
+Squib::Deck.new(width: '6in', height: '4in', cards: data.nrows) do
   background color: :white
   use_layout file: 'layouts/deck.yml'
 
   text layout: :name, str: data.name
   text layout: :size, str: data.size
-  text layout: :armor_class, str: data.armor_class.map { |ac| "AC:  #{ac}" }
-  text layout: :hit_points, str: data.hit_points.map { |hp| "HP:  #{hp}" }
+  text layout: :armor_class, str: data.armor_class.map { |ac| "AC: #{ac}" }
+  text layout: :hit_points, str: data.hit_points.map { |hp| "HP: #{hp}" }
   text layout: :speed, str: data.speed.map { |hp| "SPD: #{hp}" }
   text layout: :stealth, str: data.stealth.map { |s| "Stealth: #{s}" }
 
@@ -69,9 +71,11 @@ Squib::Deck.new(width: '5in', height: '3in', cards: data.nrows) do
     save_sheet prefix: 'pnp_sheet_',
                trim: '0.125in',
                rows: 3, columns: 3
-    save_pdf file: 'monsters.pdf', 
-             width: '5in', height: '3in', 
-             crop_stroke_color: :white
+    save_pdf file: 'monsters.pdf',
+             width: '6in', height: '4in',
+             crop_stroke_color: :white,
+             sprue: 'layouts/sprue.yml',
+             margin: 0
   end
-  
+
 end
