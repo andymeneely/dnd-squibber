@@ -1,1070 +1,815 @@
                        ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Goblin                             |
-                   Qty | 6                                  |
-                   _id | 592f6c32c9e7ce9f7215805e           |
-                 index | 150                                |
-                  name | Goblin                             |
-                  size | Small                              |
-                  type | humanoid                           |
-               subtype | goblinoid                          |
-             alignment | neutral evil                       |
-           armor_class | 15                                 |
-            hit_points | 7                                  |
-              hit_dice | 2d6                                |
-                 speed | 30 ft.                             |
-              strength | 8                                  |
-             dexterity | 14                                 |
-          constitution | 10                                 |
-          intelligence | 10                                 |
-                wisdom | 8                                  |
-              charisma | 8                                  |
-               stealth | 6                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 9                              |
-             languages | Common, Goblin                     |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | goblin can take the Disengage or H |
-                       | ide action as a bonus action on ea |
-                       | ch of its turns.", "name"=>"Nimble |
-                       |  Escape"}]                         |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 5 ( |
-                       | 1d6 + 2) slashing damage.", "name" |
-                       | =>"Scimitar"}, {"damage_bonus"=>2, |
-                       |  "damage_dice"=>"1d6", "attack_bon |
-                       | us"=>4, "desc"=>"Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.", "name"=>"Shortbow"}] |
-                       |                                    |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/150                              |
-             abilities | STR 8  (-1)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 10 (+0)                        |
-                       | INT 10 (+0)                        |
-                       | WIS 8  (-1)                        |
-                       | CHA 8  (-1)                        |
-                       |                                    |
-           action_text | <b>Scimitar</b>: Melee Weapon Atta |
-                       | ck: +4 to hit, reach 5 ft., one ta |
-                       | rget. Hit: 5 (1d6 + 2) slashing da |
-                       | mage.                              |
-                       | <b>Shortbow</b>: Ranged Weapon Att |
-                       | ack: +4 to hit, range 80/320 ft.,  |
-                       | one target. Hit: 5 (1d6 + 2) pierc |
-                       | ing damage.                        |
-          special_text | <b>Nimble Escape</b>: The goblin c |
-                       | an take the Disengage or Hide acti |
-                       | on as a bonus action on each of it |
-                       | s turns.                           |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Grick                              |
-                   Qty | 1                                  |
-                   _id | 592f6c32c9e7ce9f72158065           |
-                 index | 156                                |
-                  name | Grick                              |
+                  Name | Mastiff                            |
+                   Qty | 4                                  |
+                   _id | 592f6c32c9e7ce9f7215808d           |
+                 index | 197                                |
+                  name | Mastiff                            |
                   size | Medium                             |
-                  type | monstrosity                        |
-               subtype |                                    |
-             alignment | neutral                            |
-           armor_class | 14                                 |
-            hit_points | 27                                 |
-              hit_dice | 6d8                                |
-                 speed | 30 ft., climb 30 ft.               |
-              strength | 14                                 |
-             dexterity | 14                                 |
-          constitution | 11                                 |
-          intelligence | 3                                  |
-                wisdom | 14                                 |
-              charisma | 5                                  |
-               stealth |                                    |
-damage_vulnerabilities |                                    |
-    damage_resistances | bludgeoning, piercing, and slashin |
-                       | g damage from nonmagical weapons   |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | darkvision 60 ft., passive Percept |
-                       | ion 12                             |
-             languages |                                    |
-      challenge_rating | 2                                  |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | grick has advantage on Dexterity ( |
-                       | Stealth) checks made to hide in ro |
-                       | cky terrain.", "name"=>"Stone Camo |
-                       | uflage"}]                          |
-               actions | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | grick makes one attack with its te |
-                       | ntacles. If that attack hits, the  |
-                       | grick can make one beak attack aga |
-                       | inst the same target.", "name"=>"M |
-                       | ultiattack"}, {"damage_bonus"=>2,  |
-                       | "damage_dice"=>"2d6", "attack_bonu |
-                       | s"=>4, "desc"=>"Melee Weapon Attac |
-                       | k: +4 to hit, reach 5 ft., one tar |
-                       | get. Hit: 9 (2d6 + 2) slashing dam |
-                       | age.", "name"=>"Tentacles"}, {"dam |
-                       | age_bonus"=>2, "damage_dice"=>"1d6 |
-                       | ", "attack_bonus"=>4, "desc"=>"Mel |
-                       | ee Weapon Attack: +4 to hit, reach |
-                       |  5 ft., one target. Hit: 5 (1d6 +  |
-                       | 2) piercing damage.", "name"=>"Bea |
-                       | k"}]                               |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/156                              |
-             abilities | STR 14 (+2)                        |
-                       | DEX 14 (+2)                        |
-                       | CON 11 (+0)                        |
-                       | INT 3  (-4)                        |
-                       | WIS 14 (+2)                        |
-                       | CHA 5  (-3)                        |
-                       |                                    |
-           action_text | <b>Multiattack</b>: The grick make |
-                       | s one attack with its tentacles. I |
-                       | f that attack hits, the grick can  |
-                       | make one beak attack against the s |
-                       | ame target.                        |
-                       | <b>Tentacles</b>: Melee Weapon Att |
-                       | ack: +4 to hit, reach 5 ft., one t |
-                       | arget. Hit: 9 (2d6 + 2) slashing d |
-                       | amage.                             |
-                       | <b>Beak</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one target |
-                       | . Hit: 5 (1d6 + 2) piercing damage |
-                       | .                                  |
-          special_text | <b>Stone Camouflage</b>: The grick |
-                       |  has advantage on Dexterity (Steal |
-                       | th) checks made to hide in rocky t |
-                       | errain.                            |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Wolf                               |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f721580ff           |
-                 index | 310                                |
-                  name | Wolf                               |
-                  size | Medium                             |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 11                                 |
-              hit_dice | 2d8                                |
-                 speed | 40 ft.                             |
-              strength | 12                                 |
-             dexterity | 15                                 |
-          constitution | 12                                 |
-          intelligence | 3                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth | 4                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | passive Perception 13              |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | wolf has advantage on Wisdom (Perc |
-                       | eption) checks that rely on hearin |
-                       | g or smell.", "name"=>"Keen Hearin |
-                       | g and Smell"}, {"attack_bonus"=>0, |
-                       |  "desc"=>"The wolf has advantage o |
-                       | n an attack roll against a creatur |
-                       | e if at least one of the wolf's al |
-                       | lies is within 5 ft. of the creatu |
-                       | re and the ally isn't incapacitate |
-                       | d.", "name"=>"Pack Tactics"}]      |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"2d4", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 7 ( |
-                       | 2d4 + 2) piercing damage. If the t |
-                       | arget is a creature, it must succe |
-                       | ed on a DC 11 Strength saving thro |
-                       | w or be knocked prone.", "name"=>" |
-                       | Bite"}]                            |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/310                              |
-             abilities | STR 12 (+1)                        |
-                       | DEX 15 (+2)                        |
-                       | CON 12 (+1)                        |
-                       | INT 3  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one target |
-                       | . Hit: 7 (2d4 + 2) piercing damage |
-                       | . If the target is a creature, it  |
-                       | must succeed on a DC 11 Strength s |
-                       | aving throw or be knocked prone.   |
-          special_text | <b>Keen Hearing and Smell</b>: The |
-                       |  wolf has advantage on Wisdom (Per |
-                       | ception) checks that rely on heari |
-                       | ng or smell.                       |
-                       | <b>Pack Tactics</b>: The wolf has  |
-                       | advantage on an attack roll agains |
-                       | t a creature if at least one of th |
-                       | e wolf's allies is within 5 ft. of |
-                       |  the creature and the ally isn't i |
-                       | ncapacitated.                      |
-            perception | 3                                  |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Wolf                               |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f721580ff           |
-                 index | 310                                |
-                  name | Wolf                               |
-                  size | Medium                             |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 11                                 |
-              hit_dice | 2d8                                |
-                 speed | 40 ft.                             |
-              strength | 12                                 |
-             dexterity | 15                                 |
-          constitution | 12                                 |
-          intelligence | 3                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth | 4                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | passive Perception 13              |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | wolf has advantage on Wisdom (Perc |
-                       | eption) checks that rely on hearin |
-                       | g or smell.", "name"=>"Keen Hearin |
-                       | g and Smell"}, {"attack_bonus"=>0, |
-                       |  "desc"=>"The wolf has advantage o |
-                       | n an attack roll against a creatur |
-                       | e if at least one of the wolf's al |
-                       | lies is within 5 ft. of the creatu |
-                       | re and the ally isn't incapacitate |
-                       | d.", "name"=>"Pack Tactics"}]      |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"2d4", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 7 ( |
-                       | 2d4 + 2) piercing damage. If the t |
-                       | arget is a creature, it must succe |
-                       | ed on a DC 11 Strength saving thro |
-                       | w or be knocked prone.", "name"=>" |
-                       | Bite"}]                            |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/310                              |
-             abilities | STR 12 (+1)                        |
-                       | DEX 15 (+2)                        |
-                       | CON 12 (+1)                        |
-                       | INT 3  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one target |
-                       | . Hit: 7 (2d4 + 2) piercing damage |
-                       | . If the target is a creature, it  |
-                       | must succeed on a DC 11 Strength s |
-                       | aving throw or be knocked prone.   |
-          special_text | <b>Keen Hearing and Smell</b>: The |
-                       |  wolf has advantage on Wisdom (Per |
-                       | ception) checks that rely on heari |
-                       | ng or smell.                       |
-                       | <b>Pack Tactics</b>: The wolf has  |
-                       | advantage on an attack roll agains |
-                       | t a creature if at least one of th |
-                       | e wolf's allies is within 5 ft. of |
-                       |  the creature and the ally isn't i |
-                       | ncapacitated.                      |
-            perception | 3                                  |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Wolf                               |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f721580ff           |
-                 index | 310                                |
-                  name | Wolf                               |
-                  size | Medium                             |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 11                                 |
-              hit_dice | 2d8                                |
-                 speed | 40 ft.                             |
-              strength | 12                                 |
-             dexterity | 15                                 |
-          constitution | 12                                 |
-          intelligence | 3                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth | 4                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | passive Perception 13              |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | wolf has advantage on Wisdom (Perc |
-                       | eption) checks that rely on hearin |
-                       | g or smell.", "name"=>"Keen Hearin |
-                       | g and Smell"}, {"attack_bonus"=>0, |
-                       |  "desc"=>"The wolf has advantage o |
-                       | n an attack roll against a creatur |
-                       | e if at least one of the wolf's al |
-                       | lies is within 5 ft. of the creatu |
-                       | re and the ally isn't incapacitate |
-                       | d.", "name"=>"Pack Tactics"}]      |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"2d4", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 7 ( |
-                       | 2d4 + 2) piercing damage. If the t |
-                       | arget is a creature, it must succe |
-                       | ed on a DC 11 Strength saving thro |
-                       | w or be knocked prone.", "name"=>" |
-                       | Bite"}]                            |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/310                              |
-             abilities | STR 12 (+1)                        |
-                       | DEX 15 (+2)                        |
-                       | CON 12 (+1)                        |
-                       | INT 3  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one target |
-                       | . Hit: 7 (2d4 + 2) piercing damage |
-                       | . If the target is a creature, it  |
-                       | must succeed on a DC 11 Strength s |
-                       | aving throw or be knocked prone.   |
-          special_text | <b>Keen Hearing and Smell</b>: The |
-                       |  wolf has advantage on Wisdom (Per |
-                       | ception) checks that rely on heari |
-                       | ng or smell.                       |
-                       | <b>Pack Tactics</b>: The wolf has  |
-                       | advantage on an attack roll agains |
-                       | t a creature if at least one of th |
-                       | e wolf's allies is within 5 ft. of |
-                       |  the creature and the ally isn't i |
-                       | ncapacitated.                      |
-            perception | 3                                  |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Wolf                               |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f721580ff           |
-                 index | 310                                |
-                  name | Wolf                               |
-                  size | Medium                             |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 11                                 |
-              hit_dice | 2d8                                |
-                 speed | 40 ft.                             |
-              strength | 12                                 |
-             dexterity | 15                                 |
-          constitution | 12                                 |
-          intelligence | 3                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth | 4                                  |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | passive Perception 13              |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | wolf has advantage on Wisdom (Perc |
-                       | eption) checks that rely on hearin |
-                       | g or smell.", "name"=>"Keen Hearin |
-                       | g and Smell"}, {"attack_bonus"=>0, |
-                       |  "desc"=>"The wolf has advantage o |
-                       | n an attack roll against a creatur |
-                       | e if at least one of the wolf's al |
-                       | lies is within 5 ft. of the creatu |
-                       | re and the ally isn't incapacitate |
-                       | d.", "name"=>"Pack Tactics"}]      |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"2d4", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one target. Hit: 7 ( |
-                       | 2d4 + 2) piercing damage. If the t |
-                       | arget is a creature, it must succe |
-                       | ed on a DC 11 Strength saving thro |
-                       | w or be knocked prone.", "name"=>" |
-                       | Bite"}]                            |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/310                              |
-             abilities | STR 12 (+1)                        |
-                       | DEX 15 (+2)                        |
-                       | CON 12 (+1)                        |
-                       | INT 3  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one target |
-                       | . Hit: 7 (2d4 + 2) piercing damage |
-                       | . If the target is a creature, it  |
-                       | must succeed on a DC 11 Strength s |
-                       | aving throw or be knocked prone.   |
-          special_text | <b>Keen Hearing and Smell</b>: The |
-                       |  wolf has advantage on Wisdom (Per |
-                       | ception) checks that rely on heari |
-                       | ng or smell.                       |
-                       | <b>Pack Tactics</b>: The wolf has  |
-                       | advantage on an attack roll agains |
-                       | t a creature if at least one of th |
-                       | e wolf's allies is within 5 ft. of |
-                       |  the creature and the ally isn't i |
-                       | ncapacitated.                      |
-            perception | 3                                  |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Giant Bat                          |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f72158040           |
-                 index | 118                                |
-                  name | Giant Bat                          |
-                  size | Large                              |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 22                                 |
-              hit_dice | 4d10                               |
-                 speed | 10 ft., fly 60 ft.                 |
-              strength | 15                                 |
-             dexterity | 16                                 |
-          constitution | 11                                 |
-          intelligence | 2                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth |                                    |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | blindsight 60 ft., passive Percept |
-                       | ion 11                             |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | bat can't use its blindsight while |
-                       |  deafened.", "name"=>"Echolocation |
-                       | "}, {"attack_bonus"=>0, "desc"=>"T |
-                       | he bat has advantage on Wisdom (Pe |
-                       | rception) checks that rely on hear |
-                       | ing.", "name"=>"Keen Hearing"}]    |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one creature. Hit: 5 |
-                       |  (1d6 + 2) piercing damage.", "nam |
-                       | e"=>"Bite"}]                       |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/118                              |
-             abilities | STR 15 (+2)                        |
-                       | DEX 16 (+3)                        |
-                       | CON 11 (+0)                        |
-                       | INT 2  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one creatu |
-                       | re. Hit: 5 (1d6 + 2) piercing dama |
-                       | ge.                                |
-          special_text | <b>Echolocation</b>: The bat can't |
-                       |  use its blindsight while deafened |
-                       | .                                  |
-                       | <b>Keen Hearing</b>: The bat has a |
-                       | dvantage on Wisdom (Perception) ch |
-                       | ecks that rely on hearing.         |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Giant Bat                          |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f72158040           |
-                 index | 118                                |
-                  name | Giant Bat                          |
-                  size | Large                              |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 22                                 |
-              hit_dice | 4d10                               |
-                 speed | 10 ft., fly 60 ft.                 |
-              strength | 15                                 |
-             dexterity | 16                                 |
-          constitution | 11                                 |
-          intelligence | 2                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth |                                    |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | blindsight 60 ft., passive Percept |
-                       | ion 11                             |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | bat can't use its blindsight while |
-                       |  deafened.", "name"=>"Echolocation |
-                       | "}, {"attack_bonus"=>0, "desc"=>"T |
-                       | he bat has advantage on Wisdom (Pe |
-                       | rception) checks that rely on hear |
-                       | ing.", "name"=>"Keen Hearing"}]    |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one creature. Hit: 5 |
-                       |  (1d6 + 2) piercing damage.", "nam |
-                       | e"=>"Bite"}]                       |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/118                              |
-             abilities | STR 15 (+2)                        |
-                       | DEX 16 (+3)                        |
-                       | CON 11 (+0)                        |
-                       | INT 2  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one creatu |
-                       | re. Hit: 5 (1d6 + 2) piercing dama |
-                       | ge.                                |
-          special_text | <b>Echolocation</b>: The bat can't |
-                       |  use its blindsight while deafened |
-                       | .                                  |
-                       | <b>Keen Hearing</b>: The bat has a |
-                       | dvantage on Wisdom (Perception) ch |
-                       | ecks that rely on hearing.         |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Giant Bat                          |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f72158040           |
-                 index | 118                                |
-                  name | Giant Bat                          |
-                  size | Large                              |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 22                                 |
-              hit_dice | 4d10                               |
-                 speed | 10 ft., fly 60 ft.                 |
-              strength | 15                                 |
-             dexterity | 16                                 |
-          constitution | 11                                 |
-          intelligence | 2                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth |                                    |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | blindsight 60 ft., passive Percept |
-                       | ion 11                             |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | bat can't use its blindsight while |
-                       |  deafened.", "name"=>"Echolocation |
-                       | "}, {"attack_bonus"=>0, "desc"=>"T |
-                       | he bat has advantage on Wisdom (Pe |
-                       | rception) checks that rely on hear |
-                       | ing.", "name"=>"Keen Hearing"}]    |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one creature. Hit: 5 |
-                       |  (1d6 + 2) piercing damage.", "nam |
-                       | e"=>"Bite"}]                       |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/118                              |
-             abilities | STR 15 (+2)                        |
-                       | DEX 16 (+3)                        |
-                       | CON 11 (+0)                        |
-                       | INT 2  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one creatu |
-                       | re. Hit: 5 (1d6 + 2) piercing dama |
-                       | ge.                                |
-          special_text | <b>Echolocation</b>: The bat can't |
-                       |  use its blindsight while deafened |
-                       | .                                  |
-                       | <b>Keen Hearing</b>: The bat has a |
-                       | dvantage on Wisdom (Perception) ch |
-                       | ecks that rely on hearing.         |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Giant Bat                          |
-                   Qty | 4                                  |
-                   _id | 592f6c32c9e7ce9f72158040           |
-                 index | 118                                |
-                  name | Giant Bat                          |
-                  size | Large                              |
-                  type | beast                              |
-               subtype |                                    |
-             alignment | unaligned                          |
-           armor_class | 13                                 |
-            hit_points | 22                                 |
-              hit_dice | 4d10                               |
-                 speed | 10 ft., fly 60 ft.                 |
-              strength | 15                                 |
-             dexterity | 16                                 |
-          constitution | 11                                 |
-          intelligence | 2                                  |
-                wisdom | 12                                 |
-              charisma | 6                                  |
-               stealth |                                    |
-damage_vulnerabilities |                                    |
-    damage_resistances |                                    |
-     damage_immunities |                                    |
-  condition_immunities |                                    |
-                senses | blindsight 60 ft., passive Percept |
-                       | ion 11                             |
-             languages |                                    |
-      challenge_rating | 0.25                               |
-     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
-                       | bat can't use its blindsight while |
-                       |  deafened.", "name"=>"Echolocation |
-                       | "}, {"attack_bonus"=>0, "desc"=>"T |
-                       | he bat has advantage on Wisdom (Pe |
-                       | rception) checks that rely on hear |
-                       | ing.", "name"=>"Keen Hearing"}]    |
-               actions | [{"damage_bonus"=>2, "damage_dice" |
-                       | =>"1d6", "attack_bonus"=>4, "desc" |
-                       | =>"Melee Weapon Attack: +4 to hit, |
-                       |  reach 5 ft., one creature. Hit: 5 |
-                       |  (1d6 + 2) piercing damage.", "nam |
-                       | e"=>"Bite"}]                       |
-                   url | http://www.dnd5eapi.co/api/monster |
-                       | s/118                              |
-             abilities | STR 15 (+2)                        |
-                       | DEX 16 (+3)                        |
-                       | CON 11 (+0)                        |
-                       | INT 2  (-4)                        |
-                       | WIS 12 (+1)                        |
-                       | CHA 6  (-2)                        |
-                       |                                    |
-           action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +4 to hit, reach 5 ft., one creatu |
-                       | re. Hit: 5 (1d6 + 2) piercing dama |
-                       | ge.                                |
-          special_text | <b>Echolocation</b>: The bat can't |
-                       |  use its blindsight while deafened |
-                       | .                                  |
-                       | <b>Keen Hearing</b>: The bat has a |
-                       | dvantage on Wisdom (Perception) ch |
-                       | ecks that rely on hearing.         |
-            perception |                                    |
-                       ╰------------------------------------╯
-                       ╭------------------------------------╮
-                  Name | Bat                                |
-                   Qty | 1                                  |
-                   _id | 592f6c32c9e7ce9f72157ff4           |
-                 index | 42                                 |
-                  name | Bat                                |
-                  size | Tiny                               |
                   type | beast                              |
                subtype |                                    |
              alignment | unaligned                          |
            armor_class | 12                                 |
-            hit_points | 1                                  |
-              hit_dice | 1d4                                |
-                 speed | 5 ft., fly 30 ft.                  |
-              strength | 2                                  |
-             dexterity | 15                                 |
-          constitution | 8                                  |
-          intelligence | 2                                  |
+            hit_points | 5                                  |
+              hit_dice | 1d8                                |
+                 speed | 40 ft.                             |
+              strength | 13                                 |
+             dexterity | 14                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 7                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.125                              |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | mastiff has advantage on Wisdom (P |
+                       | erception) checks that rely on hea |
+                       | ring or smell.", "name"=>"Keen Hea |
+                       | ring and Smell"}]                  |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>3, "desc" |
+                       | =>"Melee Weapon Attack: +3 to hit, |
+                       |  reach 5 ft., one target. Hit: 4 ( |
+                       | 1d6 + 1) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/197                              |
+             abilities | STR 13 (+1)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 7  (-2)                        |
+                       |                                    |
+                    xp | 25                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +3 to hit, reach 5 ft., one target |
+                       | . Hit: 4 (1d6 + 1) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  mastiff has advantage on Wisdom ( |
+                       | Perception) checks that rely on he |
+                       | aring or smell.                    |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Mastiff                            |
+                   Qty | 4                                  |
+                   _id | 592f6c32c9e7ce9f7215808d           |
+                 index | 197                                |
+                  name | Mastiff                            |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 12                                 |
+            hit_points | 5                                  |
+              hit_dice | 1d8                                |
+                 speed | 40 ft.                             |
+              strength | 13                                 |
+             dexterity | 14                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 7                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.125                              |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | mastiff has advantage on Wisdom (P |
+                       | erception) checks that rely on hea |
+                       | ring or smell.", "name"=>"Keen Hea |
+                       | ring and Smell"}]                  |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>3, "desc" |
+                       | =>"Melee Weapon Attack: +3 to hit, |
+                       |  reach 5 ft., one target. Hit: 4 ( |
+                       | 1d6 + 1) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/197                              |
+             abilities | STR 13 (+1)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 7  (-2)                        |
+                       |                                    |
+                    xp | 25                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +3 to hit, reach 5 ft., one target |
+                       | . Hit: 4 (1d6 + 1) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  mastiff has advantage on Wisdom ( |
+                       | Perception) checks that rely on he |
+                       | aring or smell.                    |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Mastiff                            |
+                   Qty | 4                                  |
+                   _id | 592f6c32c9e7ce9f7215808d           |
+                 index | 197                                |
+                  name | Mastiff                            |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 12                                 |
+            hit_points | 5                                  |
+              hit_dice | 1d8                                |
+                 speed | 40 ft.                             |
+              strength | 13                                 |
+             dexterity | 14                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 7                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.125                              |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | mastiff has advantage on Wisdom (P |
+                       | erception) checks that rely on hea |
+                       | ring or smell.", "name"=>"Keen Hea |
+                       | ring and Smell"}]                  |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>3, "desc" |
+                       | =>"Melee Weapon Attack: +3 to hit, |
+                       |  reach 5 ft., one target. Hit: 4 ( |
+                       | 1d6 + 1) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/197                              |
+             abilities | STR 13 (+1)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 7  (-2)                        |
+                       |                                    |
+                    xp | 25                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +3 to hit, reach 5 ft., one target |
+                       | . Hit: 4 (1d6 + 1) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  mastiff has advantage on Wisdom ( |
+                       | Perception) checks that rely on he |
+                       | aring or smell.                    |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Mastiff                            |
+                   Qty | 4                                  |
+                   _id | 592f6c32c9e7ce9f7215808d           |
+                 index | 197                                |
+                  name | Mastiff                            |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 12                                 |
+            hit_points | 5                                  |
+              hit_dice | 1d8                                |
+                 speed | 40 ft.                             |
+              strength | 13                                 |
+             dexterity | 14                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 7                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.125                              |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | mastiff has advantage on Wisdom (P |
+                       | erception) checks that rely on hea |
+                       | ring or smell.", "name"=>"Keen Hea |
+                       | ring and Smell"}]                  |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>3, "desc" |
+                       | =>"Melee Weapon Attack: +3 to hit, |
+                       |  reach 5 ft., one target. Hit: 4 ( |
+                       | 1d6 + 1) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/197                              |
+             abilities | STR 13 (+1)                        |
+                       | DEX 14 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 7  (-2)                        |
+                       |                                    |
+                    xp | 25                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +3 to hit, reach 5 ft., one target |
+                       | . Hit: 4 (1d6 + 1) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  mastiff has advantage on Wisdom ( |
+                       | Perception) checks that rely on he |
+                       | aring or smell.                    |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Giant Wolf Spider                  |
+                   Qty | 1                                  |
+                   _id | 592f6c32c9e7ce9f7215805b           |
+                 index | 144                                |
+                  name | Giant Wolf Spider                  |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 11                                 |
+              hit_dice | 2d8                                |
+                 speed | 40 ft., climb 40 ft.               |
+              strength | 12                                 |
+             dexterity | 16                                 |
+          constitution | 13                                 |
+          intelligence | 3                                  |
                 wisdom | 12                                 |
               charisma | 4                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | blindsight 10 ft., darkvision 60 f |
+                       | t., passive Perception 13          |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | spider can climb difficult surface |
+                       | s, including upside down on ceilin |
+                       | gs, without needing to make an abi |
+                       | lity check.", "name"=>"Spider Clim |
+                       | b"}, {"attack_bonus"=>0, "desc"=>" |
+                       | While in contact with a web, the s |
+                       | pider knows the exact location of  |
+                       | any other creature in contact with |
+                       |  the same web.", "name"=>"Web Sens |
+                       | e"}, {"attack_bonus"=>0, "desc"=>" |
+                       | The spider ignores movement restri |
+                       | ctions caused by webbing.", "name" |
+                       | =>"Web Walker"}]                   |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>3, "desc" |
+                       | =>"Weapon Attack: +3 to hit, reach |
+                       |  5 ft., one creature. Hit: 4 (1d6  |
+                       | + 1) piercing damage, and the targ |
+                       | et must make a DC 11 Constitution  |
+                       | saving throw, taking 7 (2d6) poiso |
+                       | n damage on a failed save, or half |
+                       |  as much damage on a successful on |
+                       | e. If the poison damage reduces th |
+                       | e target to 0 hit points, the targ |
+                       | et is stable but poisoned for 1 ho |
+                       | ur, even after regaining hit point |
+                       | s, and is paralyzed while poisoned |
+                       |  in this way.", "name"=>"Bite"}]   |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/144                              |
+             abilities | STR 12 (+1)                        |
+                       | DEX 16 (+3)                        |
+                       | CON 13 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 4  (-3)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Bite</b>: Weapon Attack: +3 to  |
+                       | hit, reach 5 ft., one creature. Hi |
+                       | t: 4 (1d6 + 1) piercing damage, an |
+                       | d the target must make a DC 11 Con |
+                       | stitution saving throw, taking 7 ( |
+                       | 2d6) poison damage on a failed sav |
+                       | e, or half as much damage on a suc |
+                       | cessful one. If the poison damage  |
+                       | reduces the target to 0 hit points |
+                       | , the target is stable but poisone |
+                       | d for 1 hour, even after regaining |
+                       |  hit points, and is paralyzed whil |
+                       | e poisoned in this way.            |
+          special_text | <b>Spider Climb</b>: The spider ca |
+                       | n climb difficult surfaces, includ |
+                       | ing upside down on ceilings, witho |
+                       | ut needing to make an ability chec |
+                       | k.                                 |
+                       | <b>Web Sense</b>: While in contact |
+                       |  with a web, the spider knows the  |
+                       | exact location of any other creatu |
+                       | re in contact with the same web.   |
+                       | <b>Web Walker</b>: The spider igno |
+                       | res movement restrictions caused b |
+                       | y webbing.                         |
+               stealth | 7                                  |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Black Bear                         |
+                   Qty | 1                                  |
+                   _id | 592f6c32c9e7ce9f72157ff9           |
+                 index | 46                                 |
+                  name | Black Bear                         |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 11                                 |
+            hit_points | 19                                 |
+              hit_dice | 3d8                                |
+                 speed | 40 ft., climb 30 ft.               |
+              strength | 15                                 |
+             dexterity | 10                                 |
+          constitution | 14                                 |
+          intelligence | 2                                  |
+                wisdom | 12                                 |
+              charisma | 7                                  |
+            perception |                                    |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.5                                |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | bear has advantage on Wisdom (Perc |
+                       | eption) checks that rely on smell. |
+                       | ", "name"=>"Keen Smell"}]          |
+               actions | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | bear makes two attacks: one with i |
+                       | ts bite and one with its claws.",  |
+                       | "name"=>"Multiattack"}, {"damage_b |
+                       | onus"=>2, "damage_dice"=>"1d6", "a |
+                       | ttack_bonus"=>3, "desc"=>"Melee We |
+                       | apon Attack: +3 to hit, reach 5 ft |
+                       | ., one target. Hit: 5 (1d6 + 2) pi |
+                       | ercing damage.", "name"=>"Bite"},  |
+                       | {"damage_bonus"=>2, "damage_dice"= |
+                       | >"2d4", "attack_bonus"=>3, "desc"= |
+                       | >"Melee Weapon Attack: +3 to hit,  |
+                       | reach 5 ft., one target. Hit: 7 (2 |
+                       | d4 + 2) slashing damage.", "name"= |
+                       | >"Claws"}]                         |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/46                               |
+             abilities | STR 15 (+2)                        |
+                       | DEX 10 (+0)                        |
+                       | CON 14 (+2)                        |
+                       | INT 2  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 7  (-2)                        |
+                       |                                    |
+                    xp | 100                                |
+           action_text | <b>Multiattack</b>: The bear makes |
+                       |  two attacks: one with its bite an |
+                       | d one with its claws.              |
+                       | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +3 to hit, reach 5 ft., one target |
+                       | . Hit: 5 (1d6 + 2) piercing damage |
+                       | .                                  |
+                       | <b>Claws</b>: Melee Weapon Attack: |
+                       |  +3 to hit, reach 5 ft., one targe |
+                       | t. Hit: 7 (2d4 + 2) slashing damag |
+                       | e.                                 |
+          special_text | <b>Keen Smell</b>: The bear has ad |
+                       | vantage on Wisdom (Perception) che |
+                       | cks that rely on smell.            |
                stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Elk                                |
+                   Qty | 2                                  |
+                   _id | 592f6c32c9e7ce9f7215802e           |
+                 index | 100                                |
+                  name | Elk                                |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 10                                 |
+            hit_points | 13                                 |
+              hit_dice | 2d10                               |
+                 speed | 50 ft.                             |
+              strength | 16                                 |
+             dexterity | 10                                 |
+          constitution | 12                                 |
+          intelligence | 2                                  |
+                wisdom | 10                                 |
+              charisma | 6                                  |
+            perception |                                    |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 10              |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"damage_dice"=>"2d6", "attack_bo |
+                       | nus"=>0, "desc"=>"If the elk moves |
+                       |  at least 20 ft. straight toward a |
+                       |  target and then hits it with a ra |
+                       | m attack on the same turn, the tar |
+                       | get takes an extra 7 (2d6) damage. |
+                       |  If the target is a creature, it m |
+                       | ust succeed on a DC 13 Strength sa |
+                       | ving throw or be knocked prone.",  |
+                       | "name"=>"Charge"}]                 |
+               actions | [{"attack_bonus"=>0, "desc"=>"Mele |
+                       | e Weapon Attack: +5 to hit, reach  |
+                       | 5 ft., one target. Hit: 6 (1d6 + 3 |
+                       | ) bludgeoning damage.", "name"=>"R |
+                       | am"}, {"attack_bonus"=>0, "desc"=> |
+                       | "Melee Weapon Attack: +5 to hit, r |
+                       | each 5 ft., one prone creature. Hi |
+                       | t: 8 (2d4 + 3) bludgeoning damage. |
+                       | ", "name"=>"Hooves"}]              |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/100                              |
+             abilities | STR 16 (+3)                        |
+                       | DEX 10 (+0)                        |
+                       | CON 12 (+1)                        |
+                       | INT 2  (-4)                        |
+                       | WIS 10 (+0)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Ram</b>: Melee Weapon Attack: + |
+                       | 5 to hit, reach 5 ft., one target. |
+                       |  Hit: 6 (1d6 + 3) bludgeoning dama |
+                       | ge.                                |
+                       | <b>Hooves</b>: Melee Weapon Attack |
+                       | : +5 to hit, reach 5 ft., one pron |
+                       | e creature. Hit: 8 (2d4 + 3) bludg |
+                       | eoning damage.                     |
+          special_text | <b>Charge</b>: If the elk moves at |
+                       |  least 20 ft. straight toward a ta |
+                       | rget and then hits it with a ram a |
+                       | ttack on the same turn, the target |
+                       |  takes an extra 7 (2d6) damage. If |
+                       |  the target is a creature, it must |
+                       |  succeed on a DC 13 Strength savin |
+                       | g throw or be knocked prone.       |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Elk                                |
+                   Qty | 2                                  |
+                   _id | 592f6c32c9e7ce9f7215802e           |
+                 index | 100                                |
+                  name | Elk                                |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 10                                 |
+            hit_points | 13                                 |
+              hit_dice | 2d10                               |
+                 speed | 50 ft.                             |
+              strength | 16                                 |
+             dexterity | 10                                 |
+          constitution | 12                                 |
+          intelligence | 2                                  |
+                wisdom | 10                                 |
+              charisma | 6                                  |
+            perception |                                    |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 10              |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"damage_dice"=>"2d6", "attack_bo |
+                       | nus"=>0, "desc"=>"If the elk moves |
+                       |  at least 20 ft. straight toward a |
+                       |  target and then hits it with a ra |
+                       | m attack on the same turn, the tar |
+                       | get takes an extra 7 (2d6) damage. |
+                       |  If the target is a creature, it m |
+                       | ust succeed on a DC 13 Strength sa |
+                       | ving throw or be knocked prone.",  |
+                       | "name"=>"Charge"}]                 |
+               actions | [{"attack_bonus"=>0, "desc"=>"Mele |
+                       | e Weapon Attack: +5 to hit, reach  |
+                       | 5 ft., one target. Hit: 6 (1d6 + 3 |
+                       | ) bludgeoning damage.", "name"=>"R |
+                       | am"}, {"attack_bonus"=>0, "desc"=> |
+                       | "Melee Weapon Attack: +5 to hit, r |
+                       | each 5 ft., one prone creature. Hi |
+                       | t: 8 (2d4 + 3) bludgeoning damage. |
+                       | ", "name"=>"Hooves"}]              |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/100                              |
+             abilities | STR 16 (+3)                        |
+                       | DEX 10 (+0)                        |
+                       | CON 12 (+1)                        |
+                       | INT 2  (-4)                        |
+                       | WIS 10 (+0)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Ram</b>: Melee Weapon Attack: + |
+                       | 5 to hit, reach 5 ft., one target. |
+                       |  Hit: 6 (1d6 + 3) bludgeoning dama |
+                       | ge.                                |
+                       | <b>Hooves</b>: Melee Weapon Attack |
+                       | : +5 to hit, reach 5 ft., one pron |
+                       | e creature. Hit: 8 (2d4 + 3) bludg |
+                       | eoning damage.                     |
+          special_text | <b>Charge</b>: If the elk moves at |
+                       |  least 20 ft. straight toward a ta |
+                       | rget and then hits it with a ram a |
+                       | ttack on the same turn, the target |
+                       |  takes an extra 7 (2d6) damage. If |
+                       |  the target is a creature, it must |
+                       |  succeed on a DC 13 Strength savin |
+                       | g throw or be knocked prone.       |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Wolf                               |
+                   Qty | 2                                  |
+                   _id | 592f6c32c9e7ce9f721580ff           |
+                 index | 310                                |
+                  name | Wolf                               |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 11                                 |
+              hit_dice | 2d8                                |
+                 speed | 40 ft.                             |
+              strength | 12                                 |
+             dexterity | 15                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | wolf has advantage on Wisdom (Perc |
+                       | eption) checks that rely on hearin |
+                       | g or smell.", "name"=>"Keen Hearin |
+                       | g and Smell"}, {"attack_bonus"=>0, |
+                       |  "desc"=>"The wolf has advantage o |
+                       | n an attack roll against a creatur |
+                       | e if at least one of the wolf's al |
+                       | lies is within 5 ft. of the creatu |
+                       | re and the ally isn't incapacitate |
+                       | d.", "name"=>"Pack Tactics"}]      |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"2d4", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one target. Hit: 7 ( |
+                       | 2d4 + 2) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/310                              |
+             abilities | STR 12 (+1)                        |
+                       | DEX 15 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one target |
+                       | . Hit: 7 (2d4 + 2) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  wolf has advantage on Wisdom (Per |
+                       | ception) checks that rely on heari |
+                       | ng or smell.                       |
+                       | <b>Pack Tactics</b>: The wolf has  |
+                       | advantage on an attack roll agains |
+                       | t a creature if at least one of th |
+                       | e wolf's allies is within 5 ft. of |
+                       |  the creature and the ally isn't i |
+                       | ncapacitated.                      |
+               stealth | 4                                  |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Wolf                               |
+                   Qty | 2                                  |
+                   _id | 592f6c32c9e7ce9f721580ff           |
+                 index | 310                                |
+                  name | Wolf                               |
+                  size | Medium                             |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 11                                 |
+              hit_dice | 2d8                                |
+                 speed | 40 ft.                             |
+              strength | 12                                 |
+             dexterity | 15                                 |
+          constitution | 12                                 |
+          intelligence | 3                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
+            perception | 3                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | passive Perception 13              |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | wolf has advantage on Wisdom (Perc |
+                       | eption) checks that rely on hearin |
+                       | g or smell.", "name"=>"Keen Hearin |
+                       | g and Smell"}, {"attack_bonus"=>0, |
+                       |  "desc"=>"The wolf has advantage o |
+                       | n an attack roll against a creatur |
+                       | e if at least one of the wolf's al |
+                       | lies is within 5 ft. of the creatu |
+                       | re and the ally isn't incapacitate |
+                       | d.", "name"=>"Pack Tactics"}]      |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"2d4", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one target. Hit: 7 ( |
+                       | 2d4 + 2) piercing damage. If the t |
+                       | arget is a creature, it must succe |
+                       | ed on a DC 11 Strength saving thro |
+                       | w or be knocked prone.", "name"=>" |
+                       | Bite"}]                            |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/310                              |
+             abilities | STR 12 (+1)                        |
+                       | DEX 15 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 3  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one target |
+                       | . Hit: 7 (2d4 + 2) piercing damage |
+                       | . If the target is a creature, it  |
+                       | must succeed on a DC 11 Strength s |
+                       | aving throw or be knocked prone.   |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  wolf has advantage on Wisdom (Per |
+                       | ception) checks that rely on heari |
+                       | ng or smell.                       |
+                       | <b>Pack Tactics</b>: The wolf has  |
+                       | advantage on an attack roll agains |
+                       | t a creature if at least one of th |
+                       | e wolf's allies is within 5 ft. of |
+                       |  the creature and the ally isn't i |
+                       | ncapacitated.                      |
+               stealth | 4                                  |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Worg                               |
+                   Qty | 1                                  |
+                   _id | 592f6c32c9e7ce9f72158100           |
+                 index | 311                                |
+                  name | Worg                               |
+                  size | Large                              |
+                  type | monstrosity                        |
+               subtype |                                    |
+             alignment | neutral evil                       |
+           armor_class | 13                                 |
+            hit_points | 26                                 |
+              hit_dice | 4d10                               |
+                 speed | 50 ft.                             |
+              strength | 16                                 |
+             dexterity | 13                                 |
+          constitution | 13                                 |
+          intelligence | 7                                  |
+                wisdom | 11                                 |
+              charisma | 8                                  |
+            perception | 4                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | darkvision 60 ft., passive Percept |
+                       | ion 14                             |
+             languages | Goblin, Worg                       |
+      challenge_rating | 0.5                                |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | worg has advantage on Wisdom (Perc |
+                       | eption) checks that rely on hearin |
+                       | g or smell.", "name"=>"Keen Hearin |
+                       | g and Smell"}]                     |
+               actions | [{"damage_bonus"=>3, "damage_dice" |
+                       | =>"2d6", "attack_bonus"=>5, "desc" |
+                       | =>"Melee Weapon Attack: +5 to hit, |
+                       |  reach 5 ft., one target. Hit: 10  |
+                       | (2d6 + 3) piercing damage. If the  |
+                       | target is a creature, it must succ |
+                       | eed on a DC 13 Strength saving thr |
+                       | ow or be knocked prone.", "name"=> |
+                       | "Bite"}]                           |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/311                              |
+             abilities | STR 16 (+3)                        |
+                       | DEX 13 (+1)                        |
+                       | CON 13 (+1)                        |
+                       | INT 7  (-2)                        |
+                       | WIS 11 (+0)                        |
+                       | CHA 8  (-1)                        |
+                       |                                    |
+                    xp | 100                                |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +5 to hit, reach 5 ft., one target |
+                       | . Hit: 10 (2d6 + 3) piercing damag |
+                       | e. If the target is a creature, it |
+                       |  must succeed on a DC 13 Strength  |
+                       | saving throw or be knocked prone.  |
+          special_text | <b>Keen Hearing and Smell</b>: The |
+                       |  worg has advantage on Wisdom (Per |
+                       | ception) checks that rely on heari |
+                       | ng or smell.                       |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Giant Bat                          |
+                   Qty | 3                                  |
+                   _id | 592f6c32c9e7ce9f72158040           |
+                 index | 118                                |
+                  name | Giant Bat                          |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 22                                 |
+              hit_dice | 4d10                               |
+                 speed | 10 ft., fly 60 ft.                 |
+              strength | 15                                 |
+             dexterity | 16                                 |
+          constitution | 11                                 |
+          intelligence | 2                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
+            perception |                                    |
 damage_vulnerabilities |                                    |
     damage_resistances |                                    |
      damage_immunities |                                    |
@@ -1072,7 +817,7 @@ damage_vulnerabilities |                                    |
                 senses | blindsight 60 ft., passive Percept |
                        | ion 11                             |
              languages |                                    |
-      challenge_rating | 0                                  |
+      challenge_rating | 0.25                               |
      special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
                        | bat can't use its blindsight while |
                        |  deafened.", "name"=>"Echolocation |
@@ -1080,28 +825,227 @@ damage_vulnerabilities |                                    |
                        | he bat has advantage on Wisdom (Pe |
                        | rception) checks that rely on hear |
                        | ing.", "name"=>"Keen Hearing"}]    |
-               actions | [{"damage_bonus"=>1, "attack_bonus |
-                       | "=>0, "desc"=>"Melee Weapon Attack |
-                       | : +0 to hit, reach 5 ft., one crea |
-                       | ture. Hit: 1 piercing damage.", "n |
-                       | ame"=>"Bite"}]                     |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one creature. Hit: 5 |
+                       |  (1d6 + 2) piercing damage.", "nam |
+                       | e"=>"Bite"}]                       |
                    url | http://www.dnd5eapi.co/api/monster |
-                       | s/42                               |
-             abilities | STR 2  (-4)                        |
-                       | DEX 15 (+2)                        |
-                       | CON 8  (-1)                        |
+                       | s/118                              |
+             abilities | STR 15 (+2)                        |
+                       | DEX 16 (+3)                        |
+                       | CON 11 (+0)                        |
                        | INT 2  (-4)                        |
                        | WIS 12 (+1)                        |
-                       | CHA 4  (-3)                        |
+                       | CHA 6  (-2)                        |
                        |                                    |
+                    xp | 50                                 |
            action_text | <b>Bite</b>: Melee Weapon Attack:  |
-                       | +0 to hit, reach 5 ft., one creatu |
-                       | re. Hit: 1 piercing damage.        |
+                       | +4 to hit, reach 5 ft., one creatu |
+                       | re. Hit: 5 (1d6 + 2) piercing dama |
+                       | ge.                                |
           special_text | <b>Echolocation</b>: The bat can't |
                        |  use its blindsight while deafened |
                        | .                                  |
                        | <b>Keen Hearing</b>: The bat has a |
                        | dvantage on Wisdom (Perception) ch |
                        | ecks that rely on hearing.         |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Giant Bat                          |
+                   Qty | 3                                  |
+                   _id | 592f6c32c9e7ce9f72158040           |
+                 index | 118                                |
+                  name | Giant Bat                          |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 22                                 |
+              hit_dice | 4d10                               |
+                 speed | 10 ft., fly 60 ft.                 |
+              strength | 15                                 |
+             dexterity | 16                                 |
+          constitution | 11                                 |
+          intelligence | 2                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
             perception |                                    |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | blindsight 60 ft., passive Percept |
+                       | ion 11                             |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | bat can't use its blindsight while |
+                       |  deafened.", "name"=>"Echolocation |
+                       | "}, {"attack_bonus"=>0, "desc"=>"T |
+                       | he bat has advantage on Wisdom (Pe |
+                       | rception) checks that rely on hear |
+                       | ing.", "name"=>"Keen Hearing"}]    |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one creature. Hit: 5 |
+                       |  (1d6 + 2) piercing damage.", "nam |
+                       | e"=>"Bite"}]                       |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/118                              |
+             abilities | STR 15 (+2)                        |
+                       | DEX 16 (+3)                        |
+                       | CON 11 (+0)                        |
+                       | INT 2  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one creatu |
+                       | re. Hit: 5 (1d6 + 2) piercing dama |
+                       | ge.                                |
+          special_text | <b>Echolocation</b>: The bat can't |
+                       |  use its blindsight while deafened |
+                       | .                                  |
+                       | <b>Keen Hearing</b>: The bat has a |
+                       | dvantage on Wisdom (Perception) ch |
+                       | ecks that rely on hearing.         |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Giant Bat                          |
+                   Qty | 3                                  |
+                   _id | 592f6c32c9e7ce9f72158040           |
+                 index | 118                                |
+                  name | Giant Bat                          |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | unaligned                          |
+           armor_class | 13                                 |
+            hit_points | 22                                 |
+              hit_dice | 4d10                               |
+                 speed | 10 ft., fly 60 ft.                 |
+              strength | 15                                 |
+             dexterity | 16                                 |
+          constitution | 11                                 |
+          intelligence | 2                                  |
+                wisdom | 12                                 |
+              charisma | 6                                  |
+            perception |                                    |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | blindsight 60 ft., passive Percept |
+                       | ion 11                             |
+             languages |                                    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | bat can't use its blindsight while |
+                       |  deafened.", "name"=>"Echolocation |
+                       | "}, {"attack_bonus"=>0, "desc"=>"T |
+                       | he bat has advantage on Wisdom (Pe |
+                       | rception) checks that rely on hear |
+                       | ing.", "name"=>"Keen Hearing"}]    |
+               actions | [{"damage_bonus"=>2, "damage_dice" |
+                       | =>"1d6", "attack_bonus"=>4, "desc" |
+                       | =>"Melee Weapon Attack: +4 to hit, |
+                       |  reach 5 ft., one creature. Hit: 5 |
+                       |  (1d6 + 2) piercing damage.", "nam |
+                       | e"=>"Bite"}]                       |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/118                              |
+             abilities | STR 15 (+2)                        |
+                       | DEX 16 (+3)                        |
+                       | CON 11 (+0)                        |
+                       | INT 2  (-4)                        |
+                       | WIS 12 (+1)                        |
+                       | CHA 6  (-2)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Bite</b>: Melee Weapon Attack:  |
+                       | +4 to hit, reach 5 ft., one creatu |
+                       | re. Hit: 5 (1d6 + 2) piercing dama |
+                       | ge.                                |
+          special_text | <b>Echolocation</b>: The bat can't |
+                       |  use its blindsight while deafened |
+                       | .                                  |
+                       | <b>Keen Hearing</b>: The bat has a |
+                       | dvantage on Wisdom (Perception) ch |
+                       | ecks that rely on hearing.         |
+               stealth |                                    |
+                       ╰------------------------------------╯
+                       ╭------------------------------------╮
+                  Name | Giant Owl                          |
+                   Qty | 1                                  |
+                   _id | 592f6c32c9e7ce9f7215804d           |
+                 index | 132                                |
+                  name | Giant Owl                          |
+                  size | Large                              |
+                  type | beast                              |
+               subtype |                                    |
+             alignment | neutral                            |
+           armor_class | 12                                 |
+            hit_points | 19                                 |
+              hit_dice | 3d10                               |
+                 speed | 5 ft., fly 60 ft.                  |
+              strength | 13                                 |
+             dexterity | 15                                 |
+          constitution | 12                                 |
+          intelligence | 8                                  |
+                wisdom | 13                                 |
+              charisma | 10                                 |
+            perception | 5                                  |
+damage_vulnerabilities |                                    |
+    damage_resistances |                                    |
+     damage_immunities |                                    |
+  condition_immunities |                                    |
+                senses | darkvision 120 ft., passive Percep |
+                       | tion 15                            |
+             languages | Giant Owl, understands Common, Elv |
+                       | ish, and Sylvan but can't speak    |
+      challenge_rating | 0.25                               |
+     special_abilities | [{"attack_bonus"=>0, "desc"=>"The  |
+                       | owl doesn't provoke opportunity at |
+                       | tacks when it flies out of an enem |
+                       | y's reach.", "name"=>"Flyby"}, {"a |
+                       | ttack_bonus"=>0, "desc"=>"The owl  |
+                       | has advantage on Wisdom (Perceptio |
+                       | n) checks that rely on hearing or  |
+                       | sight.", "name"=>"Keen Hearing and |
+                       |  Sight"}]                          |
+               actions | [{"damage_bonus"=>1, "damage_dice" |
+                       | =>"2d6", "attack_bonus"=>3, "desc" |
+                       | =>"Melee Weapon Attack: +3 to hit, |
+                       |  reach 5 ft., one target. Hit: 8 ( |
+                       | 2d6 + 1) slashing damage.", "name" |
+                       | =>"Talons"}]                       |
+                   url | http://www.dnd5eapi.co/api/monster |
+                       | s/132                              |
+             abilities | STR 13 (+1)                        |
+                       | DEX 15 (+2)                        |
+                       | CON 12 (+1)                        |
+                       | INT 8  (-1)                        |
+                       | WIS 13 (+1)                        |
+                       | CHA 10 (+0)                        |
+                       |                                    |
+                    xp | 50                                 |
+           action_text | <b>Talons</b>: Melee Weapon Attack |
+                       | : +3 to hit, reach 5 ft., one targ |
+                       | et. Hit: 8 (2d6 + 1) slashing dama |
+                       | ge.                                |
+          special_text | <b>Flyby</b>: The owl doesn't prov |
+                       | oke opportunity attacks when it fl |
+                       | ies out of an enemy's reach.       |
+                       | <b>Keen Hearing and Sight</b>: The |
+                       |  owl has advantage on Wisdom (Perc |
+                       | eption) checks that rely on hearin |
+                       | g or sight.                        |
+               stealth | 4                                  |
                        ╰------------------------------------╯

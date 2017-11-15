@@ -1,7 +1,7 @@
 name:
   x: 90
   y: 90
-  width: 500
+  width: 2.25in
   height: 50
   font: Open Sans Bold 14
   valign: middle
@@ -33,6 +33,16 @@ abilities:
   font: Consolas 10
   x: 4.7in
   y: 0.25in
+
+challenge_rating:
+  font: Serif 10
+  x: 2.6in
+  y: 90
+  width: 0.7in
+
+xp:
+  extends: challenge_rating
+  x: += 0.7in
 
 action_text:
   font: Serif 9

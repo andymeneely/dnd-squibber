@@ -4,11 +4,14 @@ require_relative 'dnd_api'
 
 data = Squib.csv data:<<-EOCSV
 Name,Qty
-Goblin,6
-Grick,1
-Wolf,4
-Giant Bat,4
-Bat,1
+Mastiff,4
+Giant Wolf Spider,1
+Black Bear,1
+Elk,2
+Wolf,2
+Worg,1
+Giant Bat,3
+Giant Owl,1
 EOCSV
 
 api = DnDAPI.new
@@ -28,11 +31,16 @@ data.name.dup.each.with_index do |name, i|
     WIS #{monster['wisdom'].to_s.ljust(2)      } (#{'%+d' % ((monster['wisdom'] - 10)/2.0).floor.to_s })
     CHA #{monster['charisma'].to_s.ljust(2)    } (#{'%+d' % ((monster['charisma'] - 10)/2.0).floor.to_s })
   HEREDOC
+
+  data['xp'] ||= []
+  data['xp'][i] = api.cr_to_xp(data.challenge_rating[i])
+
   data['action_text'] ||= []
   actions = monster['actions'].map do |a|
     "<b>#{a['name']}</b>: #{a['desc']}"
   end
   data['action_text'][i] = actions.join("\n\n")
+
   data['special_text'] ||= []
   specials = monster['special_abilities'].map do |a|
     "<b>#{a['name']}</b>: #{a['desc']}"
@@ -51,9 +59,14 @@ Squib::Deck.new(width: '6in', height: '4in', cards: data.nrows) do
   text layout: :armor_class, str: data.armor_class.map { |ac| "AC: #{ac}" }
   text layout: :hit_points, str: data.hit_points.map { |hp| "HP: #{hp}" }
   text layout: :speed, str: data.speed.map { |hp| "SPD: #{hp}" }
-  text layout: :stealth, str: data.stealth.map { |s| "Stealth: #{s}" }
+  text layout: :stealth,
+       str: data.stealth.map { |s| "Stealth: #{'%+d' % s.to_i}" }
 
   text layout: :abilities, str: data.abilities
+
+  text layout: :challenge_rating,
+       str: data.challenge_rating.map { |cr| "CR: #{cr.to_r}"  }
+  text layout: :xp, str: data.xp.map { |xp| "XP: #{xp}" }
 
   text layout: :action_text, str: data.action_text
   text layout: :special_abilities, str: data.special_text

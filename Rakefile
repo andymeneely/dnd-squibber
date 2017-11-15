@@ -11,6 +11,9 @@ task default: [:deck]
 desc 'Build everything, with all the options'
 task all: [:with_pnp, :with_proofs, :deck]
 
+desc 'Build pnp sheet'
+task pnp: [:with_pnp, :deck]
+
 desc 'Build the deck'
 task(:deck)     { load 'src/deck.rb' }
 
